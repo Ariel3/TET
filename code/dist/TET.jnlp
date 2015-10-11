@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TET.jnlp">
+  <information>
+    <title>TET</title>
+    <vendor>Student</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TET.jar" size="63826" download="eager" />
+    <jar href="lib/beansbinding-1.2.1.jar" size="631281" download="eager" />
+  </resources>
+  <application-desc main-class="Test1"  name="TET" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
